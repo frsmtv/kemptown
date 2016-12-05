@@ -1,0 +1,122 @@
+@import "partials/modals";
+@import "partials/nav";
+
+
+// *************** RESET ***************
+html,body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  &:hover {
+    -moz-transform: translateX(0px) translateY(-5px);
+    -webkit-transform: translateX(0px) translateY(-5px);
+    -o-transform: translateX(0px) translateY(-5px);
+    -ms-transform: translateX(0px) translateY(-5px);
+    transform: translateX(0px) translateY(-5px);
+  }
+}
+
+// *************** ***************
+body {
+  #mainContainer {
+    // z-index: 1;
+    #blocDecor {
+      position: relative;
+      #camion {
+        position: absolute;
+        z-index: 4;
+        bottom: -10px;
+        left: 2%;
+        img {
+          width: 300px;
+          margin-left: 2%;
+        }
+      }
+      #city {
+        position: relative;
+        bottom: -5px;
+        z-index: 2;
+      }
+      #clouds {
+        z-index: 1;
+      }
+    }
+    #theContent {
+      position: relative;
+      z-index: 3;
+      display: flex;
+      justify-content: space-between;
+      background: url('../img/the-content-back2.png');
+      max-width: 12000px;
+    .contentBlock {
+      display: none;
+      margin-left: 0!important;
+      width: 700px;
+      align-self: flex-start;
+      color: #fff;
+      font-size: 2rem;
+      font-family: 'Rock Salt', sans-serif;
+      p {
+        color: #000;
+        font-size: 1.2rem;
+      }
+      h2 {
+        text-transform: uppercase;
+        font-size: 3rem
+      }
+      h3 {
+        display: inline-block;
+        font-size: 1.5rem;
+        text-align: center;
+        background: #000;
+        border-radius: 10px;
+        padding: 1%
+      }
+      img {
+        height: 330px;
+        // bottom: 40px;
+      }
+      i {
+        margin: 2% 3%;
+        right: 0;
+        font-size: 2.6rem;
+        color: #000;
+        -webkit-transition: all 200ms ease-in-out;
+-moz-transition: all 200ms ease-in-out;
+-ms-transition: all 200ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+transition: all 200ms ease-in-out;
+        &:hover {
+          color: #7ab2b1;
+          -moz-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(-4px) skewX(0deg) skewY(0deg);
+-webkit-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(-4px) skewX(0deg) skewY(0deg);
+-o-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(-4px) skewX(0deg) skewY(0deg);
+-ms-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(-4px) skewX(0deg) skewY(0deg);
+transform: scale(1.1) rotate(0deg) translateX(0px) translateY(-4px) skewX(0deg) skewY(0deg);
+        }
+      }
+    }
+    #ouNousTrouver {
+      h3 {
+        position: absolute;
+        padding: 0;
+        opacity: .8;
+        margin-left: 250px;
+        margin-top: 290px
+      }
+    }
+
+    }
+  }
+}
