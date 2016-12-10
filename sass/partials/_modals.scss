@@ -3,8 +3,8 @@
   height: 90%!important;
   margin-left: auto!important;
   margin-right: auto!important;
-  // background: rgba(255, 255, 255, 0.9)!important;
-  background: url('../img/modal-back.png')!important;
+   background: rgba(255, 255, 255, 0.9)!important;
+  //background: url('../img/modal-back.png')!important;
   border-radius: 10px;
   text-align: center;
   i,a {
@@ -38,7 +38,8 @@ box-shadow: 10px 10px 10px 0 #000;
   }
 }
 .animatedModal2-on {
-  font-family: 'Rock Salt', sans-serif;
+  //font-family: 'Rock Salt', sans-serif;
+  font-family: 'Lato', sans-serif;
   h3 {
     font-size: 1.8rem;
     text-transform: uppercase;

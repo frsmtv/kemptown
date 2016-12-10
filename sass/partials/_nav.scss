@@ -24,7 +24,10 @@ transition: all 200ms ease-in;
       align-items: center;
       list-style: none;
       #planningBtn, #contactBtn {
-        width: 100px;
+        width: 125px;
+      }
+      #carteBtn {
+        width: 90px;
       }
       li,a {
         line-height: 2;
@@ -36,7 +39,6 @@ transition: all 200ms ease-in;
         font-size: 0.7rem;
         letter-spacing: 2px;
         padding: 1%;
-        //background: rgba(0, 0, 0, .8);
         border-radius: 10px;
         -webkit-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
@@ -46,7 +48,6 @@ transition: all 200ms ease-in;
         &:hover {
           // cursor: pointer;
           opacity: .8;
-          // background-color: #7ab2b1!important;
           -moz-transform: scale(1) rotate(0deg) translateX(0px) translateY(-4px) skewX(0deg) skewY(0deg);
 -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(-4px) skewX(0deg) skewY(0deg);
 -o-transform: scale(1) rotate(0deg) translateX(0px) translateY(-4px) skewX(0deg) skewY(0deg);

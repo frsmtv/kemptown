@@ -12,6 +12,10 @@ jQuery(function($){
         $("#introMessage").hide();
     });
 
+    $('#camion').click(function() {
+        $('#introMessage').hide();
+    });
+
     // **** Menu & Close images SWAP ****
     var imgSwap = function () {
         var $this = $(this);

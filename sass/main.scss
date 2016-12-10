@@ -57,16 +57,19 @@ body {
       z-index: 3;
       display: flex;
       justify-content: space-between;
-      background: url('../img/the-content-back2.png');
-      max-width: 12000px;
+      background: #fff;
+      //background: url('../img/the-content-back2.png');
+      max-width: 3000px;
     .contentBlock {
       display: none;
-      margin-left: 0!important;
+      margin-left: 1%;
+      margin-right: 2%;
       width: 700px;
       align-self: flex-start;
       color: #fff;
-      font-size: 2rem;
-      font-family: 'Rock Salt', sans-serif;
+      font-size: 1rem;
+      font-family: 'Lato', sans-serif;
+      text-align: justify;
       p {
         color: #000;
         font-size: 1.2rem;
@@ -84,8 +87,8 @@ body {
         padding: 1%
       }
       img {
-        height: 330px;
-        // bottom: 40px;
+        width: 60px;
+        float: right;
       }
       i {
         margin: 2% 3%;
