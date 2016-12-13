@@ -54,7 +54,10 @@ box-shadow: 10px 10px 10px 0 #000;
     display: flex;
     justify-content: space-around;
     vertical-align: top!important;
-    margin-bottom: 4%
+    margin-bottom: 4%;
+    #carteContentColRight {
+      margin-top: 18px;
+    }
   }
   .carteContent {
     p {
@@ -79,20 +82,40 @@ box-shadow: 10px 10px 10px 0 #000;
 #animatedModal3 {
   h3 {
     font-family: 'Rock Salt', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
   }
   h4 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   i {
     margin-left: 2%;
   }
   a {
     color: #000;
+    font-size: 1rem;
+    padding: 1%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    &:hover {
+      text-shadow: none;
+      -webkit-box-shadow: 10px 10px 10px 0 #60A29E;
+      box-shadow: 10px 10px 10px 0 #60A29E;
+      -moz-transform: translateX(0px) translateY(-5px);
+      -webkit-transform: translateX(0px) translateY(-5px);
+      -o-transform: translateX(0px) translateY(-5px);
+      -ms-transform: translateX(0px) translateY(-5px);
+      transform: translateX(0px) translateY(-5px);
+    }
   }
 }
 .animatedModal-off {

@@ -8,6 +8,7 @@ html,body {
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+  line-height: 1.8;
   font-family: 'Lato', sans-serif;
 }
 a {
@@ -37,7 +38,7 @@ body {
         position: absolute;
         z-index: 4;
         bottom: -10px;
-        left: 2%;
+        left: 1%;
         img {
           width: 300px;
           margin-left: 2%;
@@ -89,6 +90,9 @@ body {
       img {
         width: 60px;
         float: right;
+        &:hover {
+          cursor: pointer;
+        }
       }
       i {
         margin: 2% 3%;
@@ -123,3 +127,5 @@ transform: scale(1.1) rotate(0deg) translateX(0px) translateY(-4px) skewX(0deg) 
     }
   }
 }
+
+

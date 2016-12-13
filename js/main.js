@@ -4,7 +4,7 @@ jQuery(function($){
 
 
     // *********** Invert Scroll ***********
-  $.jInvertScroll(['#city', '#camion', '#clouds', '#theContent']);
+  $.jInvertScroll(['#city', '#clouds', '#theContent']);
 
 
     // **** Close introMessage ****
@@ -28,6 +28,10 @@ jQuery(function($){
         $('img.imgSwap').hover(imgSwap, imgSwap);
     });
 
+    // **** CLOSE THE CONTENT ****
+    $('#theContentClose').click(function() {
+       $('.contentBlock').css('display', 'none');
+    });
 
 
 
