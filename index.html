@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./dist/css/bundle-sass.css">
 
@@ -40,7 +42,7 @@
         <!-- ************** CLOUDS ************** -->
         <div id="clouds" class="scroll animated fadeIn">
           <img src="./dist/img/clouds3b.png" alt="Kemptown Foodtruck, burgers et fish'n'chips à Lyon">
-          <!-- <img src="./dist/img/clouds3.png" alt=""> -->
+          <img src="./dist/img/clouds3b2.png" alt="Kemptown Foodtruck, burgers et fish'n'chips à Lyon">
         </div> <!-- clouds -->
 
         <!-- ************** CAMION ! ************** -->
@@ -57,13 +59,12 @@
 
           <div id="mainMenu" class="">
             <ul>
-              <span><li><a id="demo02" href="#animatedModal2"><img class="imgSwap" id="carteBtn" src="dist/img/static-burger.png" data-alt-src="dist/img/burger.gif"></a></li></span>
-              <!--<span><li><a id="demo02" href="#animatedModal2">La carte</a></li></span>-->
-              <span><li><a id="demo01" href="#animatedModal"><img class="imgSwap" id="planningBtn" src="dist/img/static-planning-semaine.png" data-alt-src="dist/img/planning-semaine.gif"></a></li></span>
-              <!--<span><li><a id="demo01" href="#animatedModal">Planning de la semaine</a></li></span>-->
               <li><img id="logo" src="./dist/img/logo2.png" alt="Kemptown Foodtruck logo, burgers et fish'n'chips à Lyon"></li>
-              <span><li>événements privés</li></span>
-              <span><li><a id="demo03" href="#animatedModal3"><img class="imgSwap" id="contactBtn" src="dist/img/static-contact.png" data-alt-src="dist/img/contact.gif"></a></li></span>
+              <span><li><a id="demo02" href="#animatedModal2"><img class="" id="carteBtn" src="dist/img/burger.gif" ></a></li></span>
+              <!--<span><li><a id="demo02" href="#animatedModal2">La carte</a></li></span>-->
+              <span><li><a id="demo01" href="#animatedModal"><img class="" id="planningBtn" src="dist/img/planning-semaine.gif" data-alt-src="dist/img/planning-semaine.gif"></a></li></span>
+              <!--<span><li><a id="demo01" href="#animatedModal">Planning de la semaine</a></li></span>-->
+              <span><li><a id="demo03" href="#animatedModal3"><img class="imgSwap" id="contactBtn" src="dist/img/contact.gif" data-alt-src="dist/img/contact.gif"></a></li></span>
             </ul>
 
               <!--***************** INTRO MESSAGE *****************-->
@@ -146,7 +147,7 @@
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
           <div class="close-animatedModal">
             <!--<i class="fa fa-times-circle" aria-hidden="true"></i>-->
-            <img class="closeBtn imgSwap" src="dist/img/static-x.png" data-alt-src="dist/img/animat-x.gif">
+              <img class="closeBtn imgSwap" src="dist/img/static-x-color.png" data-alt-src="dist/img/animat-x-color.gif">
           </div>
           <div class="modal-content">
 
@@ -162,7 +163,7 @@
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
           <div class="close-animatedModal2">
             <!--<i class="fa fa-times-circle" aria-hidden="true"></i>-->
-            <img class="closeBtn imgSwap" src="dist/img/static-x.png" data-alt-src="dist/img/animat-x.gif">
+            <img class="closeBtn imgSwap" src="dist/img/static-x-color.png" data-alt-src="dist/img/animat-x-color.gif">
           </div>
           <div class="modal-content">
 
@@ -297,7 +298,7 @@
             </p>
             <div class="close-animatedModal2">
               <!--<i class="fa fa-times-circle" aria-hidden="true"></i>-->
-              <img class="closeBtn imgSwap" src="dist/img/static-x.png" data-alt-src="dist/img/animat-x.gif">
+              <img class="closeBtn imgSwap" src="dist/img/static-x-color.png" data-alt-src="dist/img/animat-x-color.gif">
             </div>
           </div>
         </div> <!-- Modal content -->
@@ -308,12 +309,17 @@
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
           <div class="close-animatedModal3">
             <!--<i class="fa fa-times-circle" aria-hidden="true"></i>-->
-            <img class="closeBtn imgSwap" src="dist/img/static-x.png" data-alt-src="dist/img/animat-x.gif">
+              <img class="closeBtn imgSwap" src="dist/img/static-x-color.png" data-alt-src="dist/img/animat-x-color.gif">
           </div>
           <div class="modal-content">
             <!--Your modal content goes here-->
-              <h3>Contactez-nous !</h3><br>
+              <!--<h3>Contactez-nous !</h3><br>-->
               <h4>Mariage, anniversaire, brunch, soirée privée</h4>
+              <div id="contactPhotos">
+                  <img src="dist/img/kemptown-foodtruck-street-food-lyon-france-square.png">
+                  <img src="dist/img/kemptown-foodtruck-street-food-lyon-square.jpg">
+                  <img src="dist/img/kemptown-foodtruck-street-food-square.jpg">
+              </div>
               <p>
                 Parce que toutes les occasions sont bonnes pour se réunir,<br>
                   marquez les esprits de vos invités en privatisant le Kemptown Food Truck<br>
@@ -332,6 +338,8 @@
               <i class="fa fa-facebook-square" aria-hidden="true"></i>
               <i class="fa fa-twitter-square" aria-hidden="true"></i>
               <i class="fa fa-instagram" aria-hidden="true"></i>
+
+              <p style="font-size: 0.8rem; border: 1px dashed #000; width: 30%; margin-left: auto; margin-right: auto">Designed & coded by François Simitchiev</p>
           </div> <!-- Modal content -->
         </div> <!-- animateModal -->
 
