@@ -39,6 +39,16 @@ transform: translateX(0px) translateY(-5px);
     }
   }
 }
+.animatedModal-on {
+  width: 851px!important;
+  height: 435px!important;
+  background: #fff!important;
+  #planningClose {
+    position: absolute;
+    right: 0;
+    top: -15px;
+  }
+}
 .animatedModal2-on {
   //font-family: 'Rock Salt', sans-serif;
   font-family: 'Raleway', sans-serif;
@@ -124,8 +134,8 @@ transform: translateX(0px) translateY(-5px);
     transition: all 200ms ease-in;
     &:hover {
       text-shadow: none;
-      -webkit-box-shadow: 10px 10px 10px 0 #75aabf;
-      box-shadow: 10px 10px 10px 0 #75aabf;
+      background: #7ab2b2;
+
       -moz-transform: translateX(0px) translateY(-5px);
       -webkit-transform: translateX(0px) translateY(-5px);
       -o-transform: translateX(0px) translateY(-5px);
