@@ -93,6 +93,10 @@ transform: translateX(0px) translateY(-5px);
     }
   }
 }
+.animatedModal3-on {
+  background: #fff!important;
+  color: #000!important;
+}
 #animatedModal3 {
   h3 {
     font-family: 'Rock Salt', sans-serif;
@@ -115,7 +119,11 @@ transform: translateX(0px) translateY(-5px);
     }
   }
   p {
+    display: inline-block;
+    padding: 1%;
     font-size: 1rem;
+    border: 1px solid #000;
+    border-radius: 10px;
   }
   i {
     margin-left: 2%;
